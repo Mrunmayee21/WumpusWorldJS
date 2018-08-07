@@ -1,21 +1,50 @@
-body {
+/* body {
     margin: 50px 150px 0 150px;
-}
+} */
 
-.mboard, .pboard {
+/* .mboard, .pboard {
+    border : 3px solid #A9A9A9;	
     background-color: #999;
     height: 350px;
-    width: 350px;
-}
+    width: 350px; 
+} */
 
-.mboard td, .pboard td {
+/* .mboard td, .pboard td {
     background-color: #efefef;
-}
+    /* width : 120px;
+	height : 120px;
+	text-align : center;
+	background-color:grey; */
+/* } */
 
-.pboard {
+/* .pboard {
     float: right;
 }
 
 .mboard {
     float: left;
-}
+} */
+
+    table{
+    /* width: 70%;
+    height:70%; */
+	border : 6px solid #A9A9A9;
+    margin-left : 28%;
+    margin-top : 7%;
+    border-radius: 5px;
+    
+	/* padding-top: 200px; */
+    }
+
+	td{
+	width : 150px;
+    height : 150px;
+	text-align : center;
+	background-color:grey;
+	}
+	
+	#title{
+	text-align: center;
+	font-family: Helvetica;
+	font-size : 42px;
+	}

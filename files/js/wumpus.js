@@ -379,7 +379,7 @@ class Wumpus {
                 else if (cell.isPit)
                     img = "pit.png";
                 else if (cell.isStench && cell.isBreeze && cell.isGold)
-                    img = "gold.png";
+                    img = "gold.jpg";
                 else if (cell.isStench && cell.isBreeze)
                     img = "breeze-stench.png";
                 else if (cell.isWumpus && cell.isBreeze && isWumpusDead)
@@ -391,7 +391,7 @@ class Wumpus {
                 else if (cell.isWumpus)
                     img = "wumpus.png";
                 else if (cell.isGold)
-                    img = "gold.png";
+                    img = "gold.jpg";
                 else if (cell.isBreeze)
                     img = "breeze.png";
                 else if (cell.isStench)

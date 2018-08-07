@@ -3,15 +3,11 @@ class Cell {
     constructor(x, y) {
         this.x = x;
         this.y = y;
-
         this.isVisited = false;
-
         this.isPlayer = false;
-
         this.isWumpus = false;
         this.isPit = false;
         this.isGold = false;
-
         this.isStench = false;
         this.isBreeze = false;
     }
@@ -52,7 +48,6 @@ class CellVisited {
     constructor(x, y) {
         this.x = x;
         this.y = y;
-
         this.pitChance = 0;
         this.wumpusChance = 0;
         this.visitedNum = 0;
